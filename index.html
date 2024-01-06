@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S Nithin Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(77, 76, 76);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: black;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(63, 59, 59);
+        font-size: 1.04rem;
+      }
+
+      .left {
+        font-size: 1.25rem;
+      }
+
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 140px 0;
+      }
+
+      .firstsection > div {
+        width: 30%;
+      }
+
+      .leftsection {
+        font-size: 2rem;
+      }
+
+      .leftsection .buttons{
+        padding: 50px 0;
+
+      }
+
+      .leftsection .btn{
+        padding: 12px;
+        background-color: black;
+        color: white;
+        border: 2px white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+
+      }
+
+      main hr {
+        border: 0;
+        background: black;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+
+      .rightsection img {
+        width: 80%;
+      }
+
+      .purple {
+        color: black;
+      }
+
+      #element {
+        color: black;
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .secondSection h1 {
+        color: black;
+        font-size: 1.9rem;
+      }
+
+      .text-white {
+        color: white;
+      }
+
+      .secondSection .box {
+        background: black;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: black;
+        margin: 0 150px;
+      }
+
+      .image-top{
+        width: 27px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 17px;
+      }
+
+      .vertical-desc{
+
+        position: relative;
+        top: 86px;
+        color: black;
+        width: 150px;
+        font-size: 9px;
+      }
+      
+      footer{
+        background-color: black;
+      }
+
+      .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+
+
+      .footer ul{
+        list-style: none;
+      }
+
+      .footer > div{
+        width: 123px;
+      }
+
+      footer .footer-rights{
+
+        text-align: center;
+        color: white;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Mohith Reddy's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is Mohith N Reddy
+          <span class="purple"></span>
+          <div>I am a student</div>
+          <div>Pursuing BTech in</div>
+          <div>R V University</div>
+          <span id="element"></span>
+          <div class="button">
+            <a href="RES2.html"><button class="btn">Download Resume</button></a>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+
+        <div class="rightsection">
+          <img src="rs.png" alt="student image" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-white">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="cp.png" alt="C-Programming language">
+            <div class="vertical-title">
+                C-Programming  
+            </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis explicabo illum quidem quae pariatur a, minus natus ipsam in officia doloremque omnis cumque.
+          </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="ht.png" alt="HTML">
+            <div class="vertical-title">
+                HTML 
+            </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis explicabo illum quidem quae pariatur a, minus natus ipsam in officia doloremque omnis cumque.
+          </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="cs.png" alt="CSS">
+            <div class="vertical-title">
+                CSS 
+            </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis explicabo illum quidem quae pariatur a, minus natus ipsam in officia doloremque omnis cumque.
+          </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="U:\HTML\new\WhatsApp Image 2024-01-05 at 22.29.45.jpeg" alt="Java Script">
+            <div class="vertical-title">
+                JAVA SCRIPT 
+            </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis explicabo illum quidem quae pariatur a, minus natus ipsam in officia doloremque omnis cumque.
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">Mohith Reddy's Portfolio</div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+        <div class="footer-rights">Copyright &copy; www.snithinsportfolio.com | All rights reserved</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["I am still learning,", "&amp; It's GOOD."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
